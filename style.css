@@ -243,10 +243,6 @@ body {
   font-size: 30px;
   font-weight: 700;
 }
-.contact-name {
-  font-size: 15px;
-  font-weight: 400;
-}
 .contact-a {
   margin-top: 46px;
   display: flex;
@@ -258,19 +254,17 @@ body {
 .contact-b {
   display: flex;
   align-items: flex-end;
+  margin-top: 45px;
 }
 .contact-phone {
   margin-top: 27px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
 }
 .contant-massage {
   margin-top: 54px;
   font-size: 15px;
   font-weight: 400;
-}
-.contact-ln {
-  margin-top: 110px;
 }
 .contact-btn {
   margin-top: 48px;
@@ -295,4 +289,33 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.contact-name {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+}
+.input-text {
+  display: block;
+  background: #171616;
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  border: none;
+}
+.input-massage {
+  width: 440px;
+  height: 131px;
+  display: block;
+  background: #171616;
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  border: none;
+  resize: none;
 }
