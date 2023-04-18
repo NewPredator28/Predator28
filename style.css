@@ -31,14 +31,23 @@ body {
   font-size: 15px;
   font-weight: 600;
   margin-right: 35px;
+  position: relative;
 }
-.nav-items {
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  margin-right: 35px;
-  display: inline;
-  border-bottom: 2px solid white;
+.nav-item::after {
+  content: "";
+  display: inline-block;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  opacity: 0;
+}
+.nav-item:hover::after {
+  opacity: 1;
+  transition: 0.3s ease;
+  width: 100%;
 }
 .lang {
   display: flex;
